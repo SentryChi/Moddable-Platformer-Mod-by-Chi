@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://daf24t18h3n5e"]
+[gd_scene load_steps=5 format=3 uid="uid://daf24t18h3n5e"]
 
 [ext_resource type="Script" uid="uid://b4j8f10agdcvu" path="res://scripts/coin.gd" id="1_4bks0"]
 [ext_resource type="Texture2D" uid="uid://bjqboxowe07lw" path="res://assets/items/crystal.png" id="2_hpbor"]
+[ext_resource type="AudioStream" uid="uid://dsijyr7bkiq2k" path="res://assets/audio/collect-points-190037.mp3" id="3_khs0j"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_5w0o8"]
 radius = 46.72
@@ -16,5 +17,9 @@ texture = ExtResource("2_hpbor")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_5w0o8")
+
+[node name="sfx_coin" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_khs0j")
+volume_db = -20.0
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

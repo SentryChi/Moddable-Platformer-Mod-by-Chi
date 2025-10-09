@@ -7,8 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://dthyncc3spfks" path="res://spaces/dangerzone.tscn" id="4_2mg6t"]
 [ext_resource type="PackedScene" uid="uid://coq6d3u6wnvs2" path="res://components/platform/platform.tscn" id="4_gd51l"]
 [ext_resource type="PackedScene" uid="uid://daf24t18h3n5e" path="res://components/coin/coin.tscn" id="5_u7hr5"]
-[ext_resource type="Texture2D" uid="uid://bjqboxowe07lw" path="res://assets/items/crystal.png" id="6_kpi5m"]
 [ext_resource type="PackedScene" uid="uid://jt80gv02u4f2" path="res://hud.tscn" id="6_mp7wy"]
+[ext_resource type="Texture2D" uid="uid://iqelt0sowd3h" path="res://assets/items/coin.png" id="6_ycdy4"]
 [ext_resource type="PackedScene" uid="uid://dk0xon0k7ga23" path="res://components/enemy/enemy.tscn" id="9_l6smt"]
 [ext_resource type="SpriteFrames" uid="uid://bo581k1esb50n" path="res://components/player/spriteframes-red.tres" id="9_qmofe"]
 [ext_resource type="PackedScene" uid="uid://beuisy5yrw0bq" path="res://components/flag/flag.tscn" id="12_dkbog"]
@@ -36,115 +36,115 @@ tile_map_data = PackedByteArray("AAAAAAUAAAACAAAAAAABAAUAAAACAAAAAAACAAUAAAACAAA
 [node name="Coin" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(1472, 320)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin3" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(1600, 256)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin4" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(1728, 320)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin5" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(2880, 128)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin6" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3136, -384)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin7" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3392, 128)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin12" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3520, 128)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin13" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3264, 128)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin14" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3008, 128)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin15" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(2752, 128)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin16" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3840, 832)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin17" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3712, 960)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin20" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3840, 704)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin18" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3456, 960)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin21" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3584, 960)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin19" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3840, 960)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin9" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(960, 576)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin10" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3008, -320)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Coin11" parent="Coins" instance=ExtResource("5_u7hr5")]
 modulate = Color(1, 1, 0, 1)
 position = Vector2(3264, -320)
-texture = ExtResource("6_kpi5m")
+texture = ExtResource("6_ycdy4")
 tint = Color(1, 1, 0, 1)
 
 [node name="Platforms" type="Node2D" parent="."]

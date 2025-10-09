@@ -12,3 +12,4 @@
 # Substitute project version when publishing
 /project.godot            export-subst
 *.png filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
